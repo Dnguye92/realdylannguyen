@@ -1,0 +1,74 @@
+/*---------------------------------------------- 
+0. RESET & CLEARFIX
+------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+.overlaycaption, figure,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,																			
+table, caption, tbody, tfoot, thead, tr, th, td {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Questrial', sans-serif;
+}
+
+.projects {
+	height: 140px;
+	width: 220px;
+}
+
+nav {
+	margin-top: 25px;
+}
+
+main {
+	margin-top: 15px;
+}
+
+main h1 {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+li {
+	list-style: none;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover, a:focus{
+	text-decoration: none;
+	color: black;
+}
+
+#name {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+h5 {
+	display: inline-block;
+}
+
+footer {
+	margin: 20px 0px;
+	padding: 20px 10px;
+	background-color: #F9F9F9;
+}
+
+#footerLinks {
+	float: right;
+}
+
+#footerLinks li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
