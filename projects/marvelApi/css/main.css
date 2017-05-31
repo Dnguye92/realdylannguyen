@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Avenger';
+  src: url(../fonts/avengeance_heroic_avenger.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Speedy';
+  src: url(../fonts/fty_speedy_casual_ncv.ttf) format('truetype');
+}
+
+/* line 4, sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, sass/style.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Speedy', Open Sans;
+}
+
+/* line 15, sass/style.scss */
+a:link,
+a:visited,
+a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 18, sass/style.scss */
+.main-container {
+  overflow: hidden;
+}
+
+/* line 21, sass/style.scss */
+.character-container {
+  -webkit-transform: translateZ(0);
+}
+
+/* line 24, sass/style.scss */
+.character {
+  width: 20%;
+  z-index: 1;
+  height: auto;
+  padding-bottom: 20%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+/* line 32, sass/style.scss */
+.character h3 {
+  font-family: 'Speedy', Open Sans;
+  color: #EF1223;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  background-color: transparent;
+  padding: 2%;
+  margin: 0px;
+}
+/* line 43, sass/style.scss */
+.character:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* line 49, sass/style.scss */
+.popup {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  z-index: 1000;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+  visibility: hidden;
+  opacity: 0;
+}
+/* line 64, sass/style.scss */
+.popup h1 {
+  margin-top: 0px;
+}
+/* line 67, sass/style.scss */
+.popup.show {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+}
+/* line 72, sass/style.scss */
+.popup .bottom {
+  padding: 15px;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 79, sass/style.scss */
+.popup .close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+  right: -30px;
+  top: 0px;
+  background-color: #000000;
+  opacity: 1;
+}
+/* line 89, sass/style.scss */
+.popup .close:hover {
+  cursor: pointer;
+}
+
+/* line 94, sass/style.scss */
+.credit {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1000;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1, p, a{
+  font-family: 'Speedy', Open Sans;
+}
+
+/*SEARCH BOX*/
+span {
+  z-index: 1000;
+  position: fixed;
+  font-family: 'Speedy', Open Sans;
+  padding-left: 1.7em;
+  padding-top: 1.5em;
+  font-size: 20px;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #EF1223;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 38px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+#navHeading {
+  display: block;
+  text-align: center;
+  font-family: 'Avenger', Open Sans;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#charSearch {
+  font-family: 'Speedy', Open Sans;
+  width: 75%;
+  margin: 15% auto 0 11%;
+}
+
+#labels {
+  padding: 5% 5% 5% 15%;
+}
+
+#topArrow {
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx {
+  from {-webkit-transform: translate(0, 0px);}
+  30% {-webkit-transform: translate(0, 20px);}
+  to {-webkit-transform: translate(0, -0px);}
+}
+
+@-webkit-keyframes Floating {
+  from {-moz-transform: translate(0, 0px);}
+  30% {-moz-transform: translate(0, 20px);}
+  to {-moz-transform: translate(0, -0px);}
+}
