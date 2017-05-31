@@ -1,0 +1,274 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: auto;
+	background-color: #fff;
+}
+
+hr{
+	border-width: 2px;
+	border-color: #637685;
+	width: 20%;
+}
+
+.img-responsive{
+	width: 100%;
+	z-index: -1;
+}
+
+.navbar-brand a{
+	font-size: 36px;
+	font-weight: bold;
+	color: black;
+	padding-left: 10px;
+}
+
+.navbar-brand a, .smaller{
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+}
+
+.navbar-brand .smaller{
+	font-size: 18px;
+}
+
+.navbar-default{
+	opacity: 0.60;
+	background-color: #637685;
+	outline-color: #637685;
+}
+
+.navbar-collapse{
+	float: right;
+	padding-top: 25px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #637685;
+}
+
+.navbar-collapse .navbar-nav li a{
+	color: black;
+	opacity: 1.00;
+	/*padding-right: 211px;*/
+}
+
+.navbar-collapse .navbar-nav li a:hover{
+	color: #FFE534;
+	transition: .4s;
+	text-decoration: overline;
+}
+
+.navbar-toggle{
+	background-color: #637685;
+	margin-top: 15px;
+}
+
+#landingText h1{
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	font-size: 80px;
+	color: #fff;
+	top: 135px;
+	left: 170px;
+	opacity: 0.81;
+}
+
+
+#main #portfolioText{
+	text-align: center;
+	font-size: 70px;
+	padding-top: 6%;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+/*MODAL STYLING*/
+#myThumbnail{
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 4px;
+}
+
+#myThumbnail:hover{
+	opacity: 0.5;
+}
+
+.modal{
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content{
+	margin: auto;
+	display: block;
+	width: 90%;
+	max-width: 700px;
+}
+
+#caption{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	font-weight: bold;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close{
+	position: absolute;
+	top: 80px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/*PORTFOLIO STYLING*/
+#firstRow{
+	padding-top: 80px;
+}
+
+#secondRow, #thirdRow, 
+#fourthRow, #fifthRow,
+#sixthRow, #seventhRow,
+#eighthRow{
+	padding-top: 20px;
+}
+
+#eighthRow{
+	padding-bottom: 30px;
+}
+
+#contactText h1{
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	color: #fff;
+	font-size: 70px;
+	left: 37%;
+	padding-top: 6%;
+}
+
+#contactText h2{
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	top: 150px;
+	left: 33%;
+	color: #fff;
+
+}
+
+#contactText i{
+	padding-top: 15px;
+	font-size: 48px;
+}
+
+#contactText a{
+	text-decoration: none;
+	color: #637685;
+}
+
+#contactText a:hover{
+	color: #FFE534;
+	transition: 0.4s;
+}
+
+@media(max-width: 420px){
+	.navbar-default{
+		height: 10%;
+	}@media(max-width: 420px){
+		.navbar-brand a{
+			font-size: 28px;
+			padding-left: 5px;
+		}.navbar-brand .smaller{
+			font-size: 12px;
+		}
+	}
+}
+
+@media(max-width: 1200px){
+	#landingText h1{
+		font-size: 48px;
+	}@media(max-width: 500px){
+		#landingText h1{
+			top: 50px;
+			left: 0;
+		}@media(max-width: 500px){
+			#main #portfolioText{
+				font-size: 35px;
+			}
+		}
+	}
+}
+
+@media(max-width: 900px){
+	#contactText h1{
+		padding-top: 2%;
+		font-size: 48px;
+	}@media(max-width: 900px){
+		#contactText h2{
+			top: 60px;
+			left: 23%;
+			font-size: 28px;
+		}
+	}
+}
+
+@media(max-width: 420px){
+	#contactText h1{
+		padding-top: 0;
+		left: 32%;
+		font-size: 30px;	
+	}@media(max-width: 420px){
+		#contactText h2{
+			top: 10px;
+			left: 16%;
+			font-size: 18px;
+		}@media(max-width: 420px){
+			#contactText i{
+				font-size: 18px;
+				padding-top: 0px;
+			}
+		}
+	}
+}

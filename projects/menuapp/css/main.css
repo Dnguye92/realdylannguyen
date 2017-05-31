@@ -1,0 +1,94 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #FE0002;
+	text-decoration: none;
+}
+
+#left {
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 60px;
+}
+
+#header{
+	padding-bottom: 5px;
+	font-weight: 900;
+	font-size: 38px;
+}
+
+#menuHeader{
+	font-weight: bold;
+}
+
+#food-name{
+	margin-bottom: 30px;
+}
+
+#logo{
+	padding-top: 40px;
+	padding-left: 60px;
+}
+
+#right{
+	border-radius: 5px;
+	opacity: 0.93;
+	background-color: #1D1916;
+}
+
+.right h1{
+	
+	font-weight: bold;
+}
+
+.right h3{
+	font-weight: bold;
+}
+
+#left #name{
+	font-weight: bold;
+	float: left;
+}
+
+#popUp{
+	float: left;
+}
+
+#descript{
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+#menuItems{
+	float: left;
+}
+
+#picture{
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited{
+	background-color: #FE0002;
+	border-color: #FE0002;
+}
+
+hr{
+	border-color: #FE0002;
+}

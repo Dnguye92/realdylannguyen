@@ -1,0 +1,32 @@
+<div id="main"> 
+	<div id="search">
+		<form>
+			<!-- <label>Search: </label>
+			<input class="form-class" ng-model="query" placeholder="Search for Watches"></input> -->
+
+			<label class="form-group">
+				<select class="form-control" ng-model="watchOrder">
+					<option value="name">Name</option>
+					<option value="size">Size</option>
+				</select>
+			</label>
+			<label class="radio-inline">
+				<input type="radio" ng-model="direction" name="direction" checked> Ascending
+			</label>
+			<label class="radio-inline">
+				<input type="radio" ng-model="direction" name="direction" value="reverse"> Descending
+			</label>
+		</form>
+		
+	</div>
+
+	<div class="row">
+		<div class="container">
+			<div class="col-md-4" ng-animate="'animate'" ng-repeat="item in watchName | filter: query | orderBy: watchOrder: direction" id="watchContainer">
+				<a href=""><img ng-src="swatchOut/img/watches/{{item.image}}.png" class="animated fadeIn"></a>
+				<h2>{{item.name}}</h2>
+				<p>{{item.size}}</p>
+			</div>
+		</div>
+	</div>
+</div>

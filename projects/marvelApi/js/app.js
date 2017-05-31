@@ -4,12 +4,12 @@ app.config(function($stateProvider) {
 	$stateProvider.state('index', {
 		url: '',
 		controller: 'mainCtrl',
-		templateUrl: 'templates/character.html'
+		templateUrl: 'marvelApi/templates/character.html'
 	})
 	.state('index.single', {
 		url: '/:id',
 		controller: 'singleCharacter',
-		templateUrl: 'templates/characterPopup.html'
+		templateUrl: 'marvelApi/templates/characterPopup.html'
 	})
 })
 

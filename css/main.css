@@ -19,7 +19,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .projects {
 	height: 140px;
 	width: 220px;
-	margin: 15px;
+	margin: 25px;
 }
 
 #main {
@@ -30,8 +30,12 @@ nav {
 	margin-top: 25px;
 }
 
+#sideNav img {
+	border-radius: 3px;
+}
+
 main {
-	margin-top: 15px;r
+	margin-top: 15px;
 }
 
 main h1 {
@@ -40,12 +44,17 @@ main h1 {
 }
 
 li {
+	font-size: 18px;
 	list-style: none;
+	font-weight: bold;
 }
 
 li a {
 	text-decoration: none;
 	color: black;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
 }
 
 li a:hover, a:focus{

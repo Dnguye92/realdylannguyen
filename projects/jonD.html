@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jon Degallier Home Page</title>
+	<!-- Icon -->
+	<link rel="icon" href="jonD/img/jd_logo.ico">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="jonD/css/animate.css">
+	<link rel="stylesheet" href="jonD/css/bootstrap.css">
+	<link rel="stylesheet" href="jonD/css/main.css">
+	<!-- SCRIPTS -->
+	<script src="jonD/jquery/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="jonD/js/typed.js"></script>
+	<script type="text/javascript" src="jonD/js/smooth-scroll.min.js"></script>
+	
+	
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		    <a data-scroll href="#jon" class="navbar-brand"><h2 id="jon">Jon Degallier Intro to C++</h2></a>
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px">
+		      <ul class="nav navbar-nav">
+		        <li><a href="jonD/syllabus.html">Syllabus</a></li>
+		        <li><a href="jonD/calendar.html">Calendar</a></li>
+		        <li><a data-scroll href="#assignments">Assignments</a></li>
+		        <li><a data-scroll href="#grades">Grades</a></li>
+		        <li><a onclick="myFunction()">Announcements</a></li>
+		        <li><a href="#">Links &amp; Files</a></li>
+		      </ul>   
+		    </div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	
+	<!-- ABOUT SECTION -->
+	<section id="about">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-7 animated fadeInLeft" id="splitLeft">
+					<span id="typed-name"></span><span class="typed-cursor"></span>
+					<h2>Welcome to Spring 2017</h2>
+					<h4>
+					This will be the class page for both online sections from cs102 - Introduction to Programming with C++
+					<br>
+					Semester begins on Monday Jaunary 23, at which time, all information regarding these classes (log-in, assignments, etc) will be posted here.
+					<br>
+					<b>Thanks and see you soon, Jon :)</b>
+					</h4>
+					<br>
+					<p>CS102 Sections 068957 &amp; 068958
+					<br>
+					#cs102spring17, <b>Online</b> 1/23 - 5/19
+					<br>
+					Email: <a href="mailto:jdegallier@ohlone.edu">jedgallier@ohlone.edu</a>
+					Phone: <a href="#">(707) 972-2374</a>
+					<br>
+					Log in <a target="_blank" href="http://toolkit.cs.ohlone.edu/~tt/index_direct.cgi">here for student tool kit</a> for registered users.
+					</p>
+				</div>
+				<div class="col-lg-5" id="splitRight">
+					<img src="jonD/img/jonD.jpg" id="jon" class="img-responsive animated fadeInRight">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- GRADES SECTION -->
+	<section id="grades">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Grades</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- studentDIV div -->
+				<div id="studentDiv">
+					<button type="button" id="studentButton">Search</button>
+					<input id="studentId" type="search" placeholder="Enter Last 4 of Student ID">
+				</div>
+				<!-- DISPLAY GRADES HERE -->
+				<div id="studentInfo">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Student ID</th>
+								<th>Total Points</th>
+								<th>Overall Percentage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td id="student"></td>
+								<td id="totalPoints"></td>
+								<td id="percentage"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ASSIGNMENTS SECTION -->
+	<section id="assignments">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Assignments</h1>
+				</div>
+			</div>
+			<!-- INSERT ASSIGNMENTS HERE -->
+			<div class="row">
+				<div class="col-lg-12">
+					<h2><span class="bold">Oops! Come back soon for assignments!</span></h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div id="creatorInfo">
+			<h4>Website created by Dylan Nguyen</h4>
+			<h4><a href="#">nguyendylan92@gmail.com</a></h4>
+		</div>
+	</footer>
+
+	<!-- HIDDEN DIV POPUP -->
+	<div id="snackbar">Grades for Chapter 2 Quiz are up!</div>
+
+
+
+	<script>
+		$(function(){
+			$('#typed-name').typed({
+				strings: ['Jon Degallier', 'Computer Science Instructor'],
+				typeSpeed: 100,
+				loop: true,
+				startDelay: 500,
+				backDelay: 2000,
+				showCursor: true,
+				cursorChar: "|"
+			})
+		})
+		smoothScroll.init({
+			selector: '[data-scroll]',
+			callback: function (anchor, toggle) {}
+		})
+	</script>
+	
+	<script src="jonD/js/bootstrap.js"></script>
+	<script src="jonD/js/grades.js"></script>
+	<script src="jonD/js/main.js"></script>
+</body>
+</html>

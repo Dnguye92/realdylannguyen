@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 64d94360b068f2b33bffb33abcd4e514fd75abd5 Dylan Nguyen <dnguye92@Yahoo.com> 1484251279 -0800	commit (initial): trying to make api call
+64d94360b068f2b33bffb33abcd4e514fd75abd5 c628cd09482cd1db62d1a3d99e49a288f32511a1 Dylan Nguyen <dnguye92@Yahoo.com> 1484251972 -0800	commit: fixed publicKey
+c628cd09482cd1db62d1a3d99e49a288f32511a1 32fc1033e088d7a55be68367c7744944b0d33238 Dylan Nguyen <dnguye92@Yahoo.com> 1484253298 -0800	commit: fixed LoadMore property - routed localhost for authentication
+32fc1033e088d7a55be68367c7744944b0d33238 791fa593f84bba0e56d23f62252d5d45af8cfa80 Dylan Nguyen <dnguye92@Yahoo.com> 1484265967 -0800	commit: fixed api call
+791fa593f84bba0e56d23f62252d5d45af8cfa80 41ec52b83668b398bcecdd7edd7c7315c59f3aa1 Dylan Nguyen <dnguye92@Yahoo.com> 1484268698 -0800	commit: Fixed h3 padding and added marvel fonts
+41ec52b83668b398bcecdd7edd7c7315c59f3aa1 b4fd1ed15377292848bc97982f31e81518f17e0d Dylan Nguyen <dnguye92@Yahoo.com> 1484270941 -0800	commit: Added Marvel disclaimer
+b4fd1ed15377292848bc97982f31e81518f17e0d 141b5e6d6ccf4f20180315d1f3b3c3b78e3aa459 Dylan Nguyen <dnguye92@Yahoo.com> 1484289538 -0800	commit: Added loading bar for everytime there's an AJAX call
+141b5e6d6ccf4f20180315d1f3b3c3b78e3aa459 4cc604193ae948b6020114c428c2a859d8d35946 Dylan Nguyen <dnguye92@Yahoo.com> 1484290641 -0800	commit (merge): added Readme
+4cc604193ae948b6020114c428c2a859d8d35946 fe4450dae635b505f00713ff56504b465634cdaa Dylan Nguyen <dnguye92@Yahoo.com> 1484358537 -0800	commit: added side navbar no functionality yet
+fe4450dae635b505f00713ff56504b465634cdaa 6533af071d60209b3e18c6848c3fde8197122276 Dylan Nguyen <dnguye92@Yahoo.com> 1484361412 -0800	commit: added smooth scrolling to move to top of page
+6533af071d60209b3e18c6848c3fde8197122276 2ba09a77b2d7741dfda104c55e52d1e26dda1712 Dylan Nguyen <dnguye92@Yahoo.com> 1484362184 -0800	commit: fixing css on close buttons
+2ba09a77b2d7741dfda104c55e52d1e26dda1712 98627cfdfcd5590bb3ccd23595078fcfe22cf021 Dylan Nguyen <dnguye92@Yahoo.com> 1484550677 -0800	commit: adding filters to view
+98627cfdfcd5590bb3ccd23595078fcfe22cf021 76f4e822ad37486bd091b79f65f1476248e55941 Dylan Nguyen <dnguye92@Yahoo.com> 1484554165 -0800	commit: temp removed search menu, added floating smooth scrolling arrow
+76f4e822ad37486bd091b79f65f1476248e55941 3b585c77b47525756036469f4b201aa73fb7011a Dylan Nguyen <dnguye92@Yahoo.com> 1485197322 -0800	commit: delete unwanted files
+3b585c77b47525756036469f4b201aa73fb7011a e7ddcb4bc03f447f1199da9027a647434b637968 Dylan Nguyen <dnguye92@Yahoo.com> 1485198262 -0800	commit: delete modules
+e7ddcb4bc03f447f1199da9027a647434b637968 287203312350f86f5d2dbc41c7099b23ae0c9276 Dylan Nguyen <Dnguye92@yahoo.com> 1496198447 -0700	commit: fixed smooth scroll
+287203312350f86f5d2dbc41c7099b23ae0c9276 819f3873ef99c8102228242d0bac49f95c1ff2e9 Dylan Nguyen <Dnguye92@yahoo.com> 1496198558 -0700	commit (merge): fixed smooth scroll

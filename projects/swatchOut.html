@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="swatchOut">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Swatch Out</title>
+	<link rel="icon" href="swatchOut/img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link rel="stylesheet" href="swatchOut/css/animate.css">
+	<link rel="stylesheet" href="swatchOut/css/bootstrap.css">
+	<link rel="stylesheet" href="swatchOut/css/main.css">
+	<link rel="stylesheet" href="swatchOut/css/slick.css">
+	<link rel="stylesheet" href="swatchOut/css/slick-theme.css">
+	<script src="swatchOut/angular/angular.min.js"></script>
+	<script src="swatchOut/angular/angular-route.min.js"></script>
+	<script src="swatchOut/angular/angular-animate.min.js"></script>
+	<script src="swatchOut/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+	<script src="swatchOut/js/app.js"></script>
+	<script src="swatchOut/js/controllers.js"></script>
+</head>
+<body>
+	<!-- NAVIGATION -->
+	<nav id="nav">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="logoName" class="affix-top" data-spy="affix" data-offset-top="800">
+					<h1>Swatch <img src="swatchOut/img/watch.png" id="watchLogo">ut</h1>
+				</div>
+				<div id="menu">
+					<button type="button" id="menuButton">&#9776;</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- SIDENAV that will pop out when menu button is clicked -->
+	<div id="sideNav">
+		<button type="button" id="closeButton">x</button>
+		<a data-scroll href="#about">About</a>
+		<a data-scroll href="#main">Watches</a>
+	</div>
+
+	<section>
+		<div class="carousel">
+			<div>
+			<img class="img-responsive" src="swatchOut/img/SW1_5.jpg">
+				<div>
+					<h1>Swap out your toy watch<br> for something <i>nicer</i></h1>
+				</div>
+			</div>
+			<div>
+			<img class="img-responsive" src="swatchOut/img/SW2.jpg">
+				<div>
+					<h1>Click <a data-scroll href="#main"><i>here</i></a> to<br> view our products</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="left" class="col-md-7">
+					<h1>ABOUT</h1>
+					<p>We're a watch brand that <span>focuses</span> on simple, sleek, and <i>elegant</i> designs. A timepiece with a busy face is a timepiece that takes the most important thing away - your time.</p>
+				</div>
+				<div id="right" class="col-md-5">
+					<img class="img-responsive animated fadeIn" src="swatchOut/img/SW3.jpg" alt="rightWatch" id="rightWatch">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="watches">
+		<div class="container">
+			<div class="row">
+				<h1>Watches</h1>
+			</div>
+			<div ng-view>
+				
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="logoName" class="affix-top" data-spy="affix" data-offset-top="800">
+					<h1>Swatch <img src="swatchOut/img/watch2.png" id="watchLogo2">ut</h1>
+					<h4><a data-scroll href="#nav">[Back to Top]</a></h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	
+	<script src="swatchOut/jquery/jquery-2.2.2.min.js"></script>
+	<script src="swatchOut/js/smooth-scroll.min.js"></script>
+	<script src="swatchOut/js/slick.js"></script>
+	<script src="swatchOut/js/main.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.carousel').slick({
+			autoplay: true,
+			infinite: true,
+			responsive: true
+		});
+	});
+	smoothScroll.init({
+		selector: '[data-scroll]',
+		callback: function(anchor, toggle) {
+			
+		}
+	});
+	</script>
+</body>
+</html>
