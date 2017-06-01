@@ -81,7 +81,7 @@ nav li > a:hover, a:hover:before, a:focus{
 }
 
 #main {
-	margin: 100px 0;
+	margin: 15px 0 90px 0;
 }
 
 nav {
@@ -92,9 +92,9 @@ nav {
 	border-radius: 3px;
 }
 
-main {
+/*main {
 	margin-top: 15px;
-}
+}*/
 
 main h1 {
 	font-weight: bold;
@@ -109,6 +109,22 @@ main h1 {
 
 h5 {
 	display: inline-block;
+}
+
+#about h1 {
+	margin-top: 30px;
+}
+
+#about p {
+	font-size: 18px;
+	margin: 85px auto 0 auto;
+	letter-spacing: 0.5px;
+	width: 80%;
+}
+
+span {
+	font-weight: bold;
+	font-size: 22px;
 }
 
 footer {
@@ -136,7 +152,7 @@ footer {
 /*MEDIA QUERIES*/
 @media(max-width: 1366px) {
 	.box p {
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
@@ -195,5 +211,19 @@ footer {
 	}
 	#main {
 		margin: 50px 0 100px 0;
+	}
+	h5 {
+		margin: 10px 0;
+	}
+}
+
+@media(max-width: 320px) {
+	.projects {
+		height: 150px;
+		width: 250px;
+	}
+	#sideNav img {
+		width: 200px;
+		height: 310px;
 	}
 }
