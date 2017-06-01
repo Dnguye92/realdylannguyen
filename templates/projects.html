@@ -1,5 +1,9 @@
 <div id="main">
-	<div class="col-xs-4 text-center" ng-animate="'animate'" ng-repeat="project in projectData | orderBy: projectImage">
-		<a ng-href="projects/{{project.link}}.html" target="_blank"><img ng-src="img/projects/{{project.image}}.png" class="animated fadeIn projects"></a>
+	<div class="container-fluid">
+		<div class="col-xs-4 text-center box" ng-animate="'animate'" ng-repeat="project in projectData">
+			<a ng-href="projects/{{project.link}}.html" target="_blank"><img ng-src="img/projects/{{project.image}}.png" class="animated fadeIn projects"></a>
+			<h2>{{project.name}}</h2>
+			<p>{{project.tech}}</p>
+		</div>
 	</div>
 </div>
