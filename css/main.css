@@ -26,9 +26,9 @@ li a {
 	position: relative;
 	/*text-decoration: none;*/
 	color: black;
-	-webkit-transition: color 0.2s ease-out;
-	-moz-transition: color 0.2s ease-out;
-	-o-transition: color 0.2s ease-out;
+	-webkit-transition: color 0.4s ease-out;
+	-moz-transition: color 0.4s ease-out;
+	-o-transition: color 0.4s ease-out;
 }
 
 nav li > a:before {
@@ -58,9 +58,9 @@ nav li > a:hover, a:hover:before, a:focus{
 .box {
 	border-radius: 4px;
 	padding: 15px 0;
-	-webkit-transition: background-color 0.2s ease-out;
-	-moz-transition: background-color 0.2s ease-out;
-	-o-transition: background-color 0.2s ease-out;
+	-webkit-transition: background-color 0.4s ease-out;
+	-moz-transition: background-color 0.4s ease-out;
+	-o-transition: background-color 0.4s ease-out;
 }
 
 .box:hover {
