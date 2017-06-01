@@ -31,7 +31,7 @@ li a {
 	-o-transition: color 0.2s ease-out;
 }
 
-li > a:before {
+nav li > a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -47,7 +47,7 @@ li > a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-li > a:hover, a:hover:before, a:focus{
+nav li > a:hover, a:hover:before, a:focus{
 	visibility: visible;
 	text-decoration: none;
     -webkit-transform: scaleX(1);
@@ -129,6 +129,7 @@ footer {
 
 #footerLinks > li a:hover, a:focus {
 	text-decoration: none;
+	color: #A1416A;
 }
 
 
@@ -167,6 +168,15 @@ footer {
 	.box h4 {
 		font-size: 18px;
 	}
+	footer {
+		padding: 10px 5px;
+	}
+	.fa-2x {
+		font-size: 1em;
+	}
+	h5 {
+		margin: 10px 0 0 120px;
+	}
 }
 
 @media(max-width: 414px) {
@@ -177,10 +187,13 @@ footer {
 	#footerLinks {
 		float: none;
 	}
+	footer {
+		padding: 0;
+	}
 	.col-xs-4 {
 		width: 100%;
 	}
 	#main {
-		margin: 50px 0;
+		margin: 50px 0 100px 0;
 	}
 }
