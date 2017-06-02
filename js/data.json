@@ -52,11 +52,5 @@
 		"image": "iamnu",
 		"link": "iamnu",
 		"tech": "Google API, JavaScript, HTML, CSS"
-	},
-	{
-		"name": "Koja Kitchen Menu App",
-		"image": "koja",
-		"link": "menuapp",
-		"tech": "JavaScript, HTML, CSS"
 	}
 ]

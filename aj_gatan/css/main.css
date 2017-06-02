@@ -228,16 +228,20 @@ hr{
 
 @media(max-width: 1200px){
 	#landingText h1{
-		font-size: 48px;
-	}@media(max-width: 500px){
-		#landingText h1{
-			top: 50px;
-			left: 0;
-		}@media(max-width: 500px){
-			#main #portfolioText{
-				font-size: 35px;
-			}
-		}
+	font-size: 48px;
+    top: 0;
+    left: 0;
+    margin: 250px;
+	}
+}
+
+@media(max-width: 500px){
+	#landingText h1{
+		top: 50px;
+		left: 0;
+	}
+	#main #portfolioText{
+		font-size: 35px;
 	}
 }
 
@@ -245,12 +249,17 @@ hr{
 	#contactText h1{
 		padding-top: 2%;
 		font-size: 48px;
-	}@media(max-width: 900px){
-		#contactText h2{
-			top: 60px;
-			left: 23%;
-			font-size: 28px;
-		}
+	}
+	#contactText h2{
+		top: 60px;
+		left: 23%;
+		font-size: 28px;
+	}
+	#landingText h1 {
+		margin: 150px;
+	}
+	#myThumbnail {
+		margin: 15px 0;
 	}
 }
 
@@ -259,16 +268,24 @@ hr{
 		padding-top: 0;
 		left: 32%;
 		font-size: 30px;	
-	}@media(max-width: 420px){
-		#contactText h2{
-			top: 10px;
-			left: 16%;
-			font-size: 18px;
-		}@media(max-width: 420px){
-			#contactText i{
-				font-size: 18px;
-				padding-top: 0px;
-			}
-		}
+	}
+	#contactText h2{
+		top: 10px;
+		left: 16%;
+		font-size: 18px;
+	}
+	#contactText i{
+		font-size: 18px;
+		padding-top: 0px;
+	}
+	#landingText h1 {
+		margin: 85px;
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 360px) {
+	#landingText h1 {
+		margin: 60px;
 	}
 }

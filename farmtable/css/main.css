@@ -174,9 +174,9 @@ aside {
 }
 
 header {
-    position: relative;
+    /*position: relative;*/
     width: 100%;
-    min-height: auto;
+    /*min-height: auto;*/
     text-align: center;
     color: #fff;
     background-image: url(../img/leftbowl.jpg);
@@ -213,33 +213,7 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-@media(min-width:768px) {
-    header {
-        min-height: 100%;
-    }
 
-    header .header-content {
-        position: absolute;
-        top: 50%;
-        padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    header .header-content .header-content-inner {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1000px;
-    }
-
-    header .header-content .header-content-inner p {
-        margin-left: auto;
-        max-width: 40%;
-        font-size: 18px;
-        font-weight: 400;
-    }
-}
 
 .section-heading {
     margin-top: 0;
@@ -477,7 +451,40 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    -webkit-tap-highlight-color: #222;
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        /*margin-left: auto;
+        max-width: 40%;
+        font-size: 18px;
+        font-weight: 400;*/
+        display: none;
+    }
+    header .header-content .header-content-inner hr {
+        /*margin-right: 175px;*/
+        display: none;
+    }
 }
 
 @media(max-width: 414px) {

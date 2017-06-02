@@ -1,7 +1,6 @@
 body{
 	font-family: 'Quicksand', sans-serif;
 	background-image: url("../img/background.jpg");
-	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #fff;
 }
@@ -92,3 +91,9 @@ a:hover{
 hr{
 	border-color: #FE0002;
 }
+
+/*@media(max-width: 768px) {
+	.col-xs-4 {
+		width: 50%;
+	}
+}*/
