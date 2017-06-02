@@ -1,0 +1,19 @@
+{
+  "name": "swatchout",
+  "version": "1.0.0",
+  "description": "watch e-commerce web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dnguye92/swatchOut.git"
+  },
+  "author": "Dylan Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dnguye92/swatchOut/issues"
+  },
+  "homepage": "https://github.com/Dnguye92/swatchOut#readme"
+}

@@ -1,0 +1,400 @@
+/*---------------------------------------------- 
+0. RESET & CLEARFIX
+------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+.overlaycaption,figure,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+a {
+	text-decoration: none;
+}
+/*BODY*/
+body {
+	background-color: #E6FFFF;
+	font-family: 'Nunito', sans-serif;
+}
+hr {
+	border-color: #3E474F;
+}
+
+.table-responsive {
+	border-color: transparent;
+	border: none;
+}
+.bold {
+	font-weight: 700;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*Navbar styling*/
+.navbar {
+	border-radius: 0px;
+}
+.navbar-brand h2{
+	color: #C3CACB;
+	font-weight: 600;
+	transition: 0.2s ease-in;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	margin-top: 10px;
+}
+.navbar-brand h2:hover {
+	color: white;
+	transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	-moz-transition: 0.2s ease-out;
+	-ms-transition: 0.2s ease-out;
+}
+.navbar-default {
+	height: 6em;
+	background-color: #3E474F;
+	border-color: #3E474F;
+}
+.navbar-nav {
+	padding: 2em 0 0 2em;
+	float: right;
+	margin-right: 1em;
+}
+.navbar-nav li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: #C3CACB;
+	transition: 0.2s ease-in;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: white;
+	transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	-moz-transition: 0.2s ease-out;
+	-ms-transition: 0.2s ease-out;
+}
+
+li:nth-child(5) {
+	cursor: pointer;
+}
+
+/*
+-----SECTION #about STYLING
+*/
+#typed-name, .typed-cursor {
+	font-size: 48px;
+	font-weight: 700;
+}
+#about {
+	margin: 15em 0 5em 0;
+}
+
+.img-responsive {
+	border-radius: 4px;
+}
+
+#splitLeft {
+	padding-left: 60px;
+}
+
+h4 {
+	line-height: 130%;
+}
+
+/*
+-----HEADER STYLING
+*/
+.header {
+	margin: 10em 0 3em 0;
+}
+
+/*
+-----TYPED.JS CURSOR STYLING
+*/
+.typed-cursor{
+	font-size: 42px;
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*
+-----CALENDAR STYLING
+*/
+.container h2 {
+	text-align: center;
+}
+.tableContainer h2 {
+	font-weight: 700;
+	font-size: 36px;
+}
+.tableContainer tbody{
+	margin-left: 4em;
+}
+.container #calendarTable {
+	margin: 3em 0em 3em 8em;
+}
+#calendarTable {
+	line-height: 150%;
+}
+
+/*
+-----ASSIGNMENT SECTION STYLING
+*/
+#assignments {
+	background-color: #fff;
+	padding: 3em 0 5em 0;
+}
+#assignments h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+@media (max-width: 1240px) {
+	.navbar-brand h2 {
+		font-size: 24px;
+	}
+}
+
+/*
+-----GRADES SECTION STYLING
+*/
+#grades {
+	background-color: #3E474F;
+	padding: 3em 0 5em 0;
+	color: #E6FFFF;
+	text-align: center;
+}
+
+#grades h1 {
+	text-align: center;
+	font-size: 48px;
+}
+
+#studentDiv {
+	float: left;
+	margin-top: 3em;
+	width: 50%;
+}
+
+#studentId {
+	font-size: .85em;
+	padding: .65em 1em;
+	border-radius: .3em;
+	outline: 0;
+	border: 1px solid #dcdcdc;
+  	margin-right: 1em;
+  	width: 40%;
+  	margin: auto;
+  	display: inline-block;
+  	color: #3E474F;
+}
+
+#studentButton {
+	color: white;
+	border-radius: 3px;
+	border: solid 1px;
+	border-color: transparent;
+	cursor: pointer;
+	background-color: #2D0791;
+	padding: 0.4em 1em;
+	margin: 0.5em 0 0.5em 0;
+	display: inline-block;
+}
+
+.table {
+	width: 45%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#student, #totalPoints, #percentage{
+	text-align: left;
+}
+
+/*
+-----FOOTER STYLING
+*/
+footer {
+	background-color: #3E474F;
+	height: 8em;
+}
+
+#creatorInfo {
+	padding: 2em 0 0 2em;
+}
+
+#creatorInfo h4 {
+	color: #fff;
+}
+
+/*
+-----OVERRIDING BOOTSTRAP COLLAPSE CLASS
+*/
+@media (max-width: 1240px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+      padding: 0;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+.navbar-header {
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+	padding-top: 1.5em;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+	border-color: transparent;
+	float: right;
+	background-color: #3E474F;
+	opacity: 0.9;
+}
+
+.navbar-toggle{
+	padding-top: 1em;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/*
+QUERIES FOR 1240PX
+*/
+@media (max-width: 1240px) {
+	#about {
+		text-align: center;
+		margin: 10em 0 5em 0;
+	}
+	#jon {
+		display: block;
+		margin: 0 auto;
+	}
+	#splitLeft {
+		padding-bottom: 2em;
+	}
+}
