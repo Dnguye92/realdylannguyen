@@ -4,7 +4,7 @@
 			<h1>Portfolio</h1>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div class="container-fluid" id="projectContainer">
 		<div class="col-xs-4 text-center box" ng-animate="'animate'" ng-repeat="project in projectData">
 			<a ng-href="projects/{{project.link}}.html" target="_blank"><img ng-src="img/projects/{{project.image}}.png" class="animated fadeIn projects"></a>
 			<h4>{{project.name}}</h4>
