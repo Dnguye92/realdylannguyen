@@ -16,6 +16,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: 'Questrial', sans-serif;
 }
 
+nav {
+	margin-top: 25px;
+}
+
+#sideNav img {
+	border-radius: 3px;
+}
+
 li {
 	font-size: 18px;
 	list-style: none;
@@ -84,14 +92,6 @@ nav li > a:hover, a:hover:before, a:focus{
 	margin: 15px 0 90px 0;
 }
 
-nav {
-	margin-top: 25px;
-}
-
-#sideNav img {
-	border-radius: 3px;
-}
-
 main h1 {
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -153,11 +153,11 @@ footer {
 	color: #A1416A;
 }
 
-#googleMaps {
+/*#googleMaps {
 	width: 50%;
 	height: 350px;
 	margin: 50px 0 100px 0;
-}
+}*/
 
 
 /*MEDIA QUERIES*/
@@ -169,7 +169,7 @@ footer {
 
 @media(max-width: 1024px) {
 	#projectContainer {
-		margin-top: 15px;
+		margin-top: 0px;
 	}
 	li {
 		font-size: 14px;
@@ -186,14 +186,11 @@ footer {
 		font-size: 10px;
 	}
 	#about p {
-		margin: 60px auto 0 auto;
+		margin: 40px auto 90px auto;
 		font-size: 18px;
 	}
 	span {
 		font-size: 22px;
-	}
-	.col-xs-4 {
-		/*width: 50%;*/
 	}
 	.fa-2x {
 		font-size: 1em;
@@ -214,6 +211,7 @@ footer {
 	.projects {
 		height: 180px;
 		width: 300px;
+		margin: 20px auto;
 	}
 	.box p {
 		font-size: 14px;
@@ -223,6 +221,38 @@ footer {
 	}
 	h5 {
 		margin: 10px 0 0 120px;
+	}
+	.col-xs-4 {
+		width: 50%;
+	}
+}
+
+@media(max-width:710px) {
+	.projects {
+		height: 150px;
+		width: 250px;
+	}
+}
+
+@media(max-width: 685px) {
+	.projects {
+		height: 130px;
+		width: 230px;
+	}
+	.box p {
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 600px) {
+	.box p {
+		font-size: 10px;
+	}
+}
+
+@media(max-width: 570px) {
+	.col-xs-4 {
+		width: 100%;
 	}
 }
 
@@ -237,22 +267,28 @@ footer {
 	footer {
 		padding: 0;
 	}
-	.col-xs-4 {
-		width: 100%;
-	}
 	#main {
 		margin: 50px 0 100px 0;
 	}
 	h5 {
 		margin: 10px 0;
 	}
+	span {
+		font-size: 18px;
+	}
+	#footerLinks {
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 360px) {
+	#sideNav img {
+		width: 240px;
+		height: 360px;
+	}
 }
 
 @media(max-width: 320px) {
-	.projects {
-		height: 150px;
-		width: 250px;
-	}
 	#sideNav img {
 		width: 200px;
 		height: 310px;
