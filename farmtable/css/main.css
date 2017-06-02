@@ -479,3 +479,28 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+@media(max-width: 414px) {
+    hr {
+        margin: 20px auto 20px 160px;
+    }
+    header .header-content .header-content-inner h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 375px) {
+    .light, .primary {
+        margin: 15px auto;
+    }
+    hr {
+        width: 60px;
+        margin: 20px auto 20px 140px;
+    }
+}
+
+@media(max-width: 320px) {
+    hr {
+        margin: 20px auto 20px 115px;
+    }
+}
