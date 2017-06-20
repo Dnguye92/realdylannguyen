@@ -4,7 +4,7 @@ var dylanN = angular.module('dylanN', [
 	'projectCtrl'
 ]);
 
-dylanN.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+dylanN.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
 	when('/', {
 		templateUrl: 'templates/projects.html',
@@ -16,6 +16,4 @@ dylanN.config(['$routeProvider', '$locationProvider', function($routeProvider, $
 	.otherwise({
 		redirectTo: '/'
 	})
-
-	$locationProvider.html5Mode(true);
 }])

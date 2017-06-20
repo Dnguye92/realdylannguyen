@@ -29,15 +29,6 @@ if(addPostInput.value == '' || addTextArea.value == '') {
 	let buttonDiv = document.createElement('div');
 	buttonDiv.className = 'buttonDiv'
 
-	//create buttons for div
-	let up = document.createElement('button');
-	up.className = 'up';
-	up.textContent = 'Up';
-
-	let down = document.createElement('button');
-	down.className = 'down';
-	down.textContent = 'Down';
-
 	let remove = document.createElement('button');
 	remove.className = 'remove';
 	remove.textContent = 'Remove';

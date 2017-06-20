@@ -3,54 +3,54 @@
 		"name": "Marvel API app",
 		"image": "marvelAPI",
 		"link": "marvelApi",
-		"tech": "AngularJS, Marvel API, JavaScript, HTML, CSS"
+		"tech": "AngularJS, Marvel API, JS, HTML, CSS"
 	},
 	{
 		"name": "FIX'd E-Commerce",
 		"image": "fixed",
 		"link": "fixd",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "SwatchOut E-Commerce",
 		"image": "swatchOut",
 		"link": "swatchOut",
-		"tech": "AngularJS, JavaScript, HTML, CSS"
+		"tech": "AngularJS, JS, HTML, CSS"
 	},
 	{
 		"name": "Rambl Blog",
 		"image": "rambl",
 		"link": "rambl",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "Ohlone College Course Website",
 		"image": "jonD",
 		"link": "jonD",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "Farmtable Restaurant",
 		"image": "farmtable",
 		"link": "farmtable",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "Austin Gatan Photography",
 		"image": "ajGatan",
 		"link": "aj_gatan",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "JavaScript Drum Kit",
 		"image": "jsDrum",
 		"link": "js_drum",
-		"tech": "JavaScript, HTML, CSS"
+		"tech": "JS, HTML, CSS"
 	},
 	{
 		"name": "iamNu Music Profile",
 		"image": "iamnu",
 		"link": "iamnu",
-		"tech": "Google API, JavaScript, HTML, CSS"
+		"tech": "Google API, JS, HTML, CSS"
 	}
 ]
