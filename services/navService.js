@@ -6,6 +6,7 @@ angular.module('navigationService', [])
 		var about = function() {
 			$location.path('/about');
 		};
+		
 		return {
 			home: home,
 			about: about

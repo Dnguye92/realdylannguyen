@@ -5,8 +5,8 @@ var dylanN = angular.module('dylanN', [
 ]);
 
 dylanN.config(['$routeProvider', function($routeProvider) {
-	$routeProvider.
-	when('/', {
+	$routeProvider
+	.when('/', {
 		templateUrl: 'templates/projects.html',
 		controller: 'projectCtrl'
 	})

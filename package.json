@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
 }
